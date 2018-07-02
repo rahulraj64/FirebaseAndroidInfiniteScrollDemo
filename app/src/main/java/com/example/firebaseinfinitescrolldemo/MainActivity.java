@@ -212,6 +212,14 @@ public class MainActivity extends AppCompatActivity {
             return nodeKey;
         }
 
+        public String getTitle() {
+            return title;
+        }
+
+        public String getAuthor() {
+            return author;
+        }
+
         @Override
         public String toString() {
             return "Book{" +
